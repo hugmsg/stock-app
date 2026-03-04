@@ -1,0 +1,8 @@
+{
+  "name": "Stock Atelier",
+  "short_name": "Stock",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e3a8a"
+}
