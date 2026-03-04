@@ -1,4 +1,4 @@
-const API_URL = "URL_DE_TON_SCRIPT?action=stock";
+const API_URL = "https://script.google.com/macros/s/AKfycbyHq_5pbALmXe8K7YJSmapdztVbbUBN5jwGjXHnFvNrTCG8WFctYz9LzK51sMGnD2HT/exec?action=stock";
 
 async function loadStock() {
   const res = await fetch(API_URL);
@@ -27,4 +27,5 @@ async function loadStock() {
 }
 
 loadStock();
+
 setInterval(loadStock, 60000);
